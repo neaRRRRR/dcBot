@@ -18,11 +18,6 @@ const riot = process.env.RIOT_API
 const servers = {}
 const ytdl = require('ytdl-core')
 
-const PORT = process.env.PORT || 3000
-client.listen(PORT, () => {
-  console.log(`Our app is running on port ${PORT}`)
-})
-
 client.once('ready', () => {
   console.log('Ready !')
   /*for (var i = 0; i < jsonData.length; i++) {

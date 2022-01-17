@@ -3,6 +3,9 @@
   "main": "main.js",
   "author": "kxxn",
   "version": "6.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "repository": "https://github.com/neaRRRRR/dcBot",
   "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
   "scripts": {
